@@ -1,0 +1,34 @@
+<html>
+ <head>
+  <link rel = "stylesheet" type = "text/css" href = "grid.css">
+  <link rel = "stylesheet" type = "text/css" href = "styles.css">
+ </head>
+
+  <body>
+
+    <main class = "row">
+     <div class = "small-80 columns centered">
+      <!-- remember to markup your forms properly using labels! -->
+      <label for="textArea"><h1>Please write your comment below:</h1></label>
+      <textarea placeholder="Describe yourself here..." id="textArea" maxlength="100" class = "small-100 columns js-textarea"></textarea>
+     </div>
+
+      <div class = "small-80 columns centered">
+       <div class = "controls">
+        <p><span id="counter">100</span> characters remaining</p>
+        <button class="button button5" id="addComment">Send</button>
+       </div>
+      </div>
+     
+       <div class = "row small-100 columns comments-container">
+     
+       </div>
+      </main>
+
+
+   <script src = "jquery-1.12.2.js"></script>
+   <script src= "counter2.js"></script>
+  
+ </body>
+
+</html>
