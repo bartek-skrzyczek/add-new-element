@@ -1,1 +1,4 @@
-# add or remove element to DOM after click on send button
+initial jquery code
+
+add or remove element
+live https://rawgit.com/bartekbart/add-new-element/master/counter.html
